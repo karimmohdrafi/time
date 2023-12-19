@@ -4,15 +4,15 @@
     box-sizing: border-box;
 }
 body{
-    background-color: black;
-    height: 100%;
+    background-color: lightslategrey;
+    height: 100px;
 }
 .clock{
     position: absolute;
     height: 200px;
     width: 200px;
-    background-color: white;
-    border-radius: 100%;
+    background-color: rgb(235, 227, 227);
+    border-radius: 100px;
     border: 10px solid lightgreen;
     top: 0;
     left: 0;
@@ -31,8 +31,8 @@ body{
 }
 .clock .right{
     position: absolute;
-    width: 7px;
-    height: 2px;
+    width: 9px;
+    height: 3px;
     background-color: green;
     top: 0;
     bottom: 0;
@@ -41,8 +41,8 @@ body{
 }
 .clock .bottom{
     position: absolute;
-    width: 2px;
-    height: 7px;
+    width: 3px;
+    height: 8px;
     background-color: green;
     left: 0;
     right: 0;
@@ -51,8 +51,8 @@ body{
 }
 .clock .left{
     position: absolute;
-    width: 7px;
-    height: 2px;
+    width: 9px;
+    height: 3px;
     background-color: green;
     top: 0;
     left: 0;
@@ -86,11 +86,12 @@ body{
 }
 .clock .hour:before{
     content: "";
-    height: 35px;
+    height: 30px;
     width: 5px;
     background-color: green;
     position: absolute;
     top: 30px;
+    
 }
 .clock .minute{
     width: 1px;
@@ -122,7 +123,7 @@ body{
 }
 .clock .second:before{
     position: absolute;
-    content: "";
+    content: "07";
     background-color: green;
     height: 45px;
     width: 2px;
